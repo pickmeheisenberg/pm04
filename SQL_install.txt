@@ -6,3 +6,10 @@ SELECT user,authentication_string,plugin,host FROM mysql.user;
 ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';
 FLUSH PRIVILEGES;
 
+
+резервная копия
+
+
+tar cvpzf backup.tgz –exclude=/proc –exclude=/lost+found –exclude=/backup.tgz –exclude=/mnt –exclude=/sys –exclude=/web /
+
+
