@@ -13,3 +13,6 @@ FLUSH PRIVILEGES;
 tar cvpzf backup.tgz –exclude=/proc –exclude=/lost+found –exclude=/backup.tgz –exclude=/mnt –exclude=/sys –exclude=/web /
 
 
+
+https://kvalik315.tilda.ws/
+
